@@ -43,7 +43,11 @@ Install via composer
 ``` bash
 $ composer require lifeonscreen/nova-google2fa
 ```
-
+If you have php version 8.0.* and its throwing an error:
+then try
+``` bash
+composer require lifeonscreen/nova-google2fa --ignore-platform-reqs
+```
 Publish config and migrations
 
 ``` bash
